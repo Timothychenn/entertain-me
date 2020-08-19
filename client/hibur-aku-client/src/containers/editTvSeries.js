@@ -42,7 +42,7 @@ function EditMovie() {
   const params = useParams();
   const history = useHistory();
   const { id } = params;
-  const { data } = useQuery(GET_TV_SERIES_ID, { variables: { _id: id } });
+  const { data } = useQuery(GET_TV_SERIES_ID, { variables: { _id: id }, fetchPolicy: 'no-cache' });
 
   const [title, setTitle] = useState("");
   const [overview, setOverview] = useState("");
