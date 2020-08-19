@@ -1,0 +1,88 @@
+.card {
+    margin: 10px 10px;
+}
+
+.card-footer {
+    height: 50px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-footer .btn {
+    margin: 5px;
+    width: 40px
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #51a0f6, #0c77e9);
+    padding: 0 !important;
+}
+
+#nav-bar img {
+    height: 40px;
+    padding-left: 20px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.container-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.jumbotron {
+    background-image: url("../assets/landscape.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    height: 200px;
+    border-radius: 0%;
+    color: white;
+    padding: 0;
+}
+
+.overlay {
+    background-color: black;
+    opacity: 0.6;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-form {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+form {
+    width: 30%;
+}
+
+.detail {
+    justify-content: center;
+    display: flex;
+}
+
+.container-button {
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.container-button .btn {
+    margin: 5px;
+}
